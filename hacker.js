@@ -57,4 +57,4 @@ message.channel.sendMessage('**Text Channel Was Succsesfluy Created**')
 }
 });
  
-client.login("Njg2ODQ3NTI4NTk0ODMzNDUz.XnXCrg.uKdJigy_dmrRImYYNJle6ybAxvk");
+client.login("Njg2ODQ3NTI4NTk0ODMzNDUz.XnXCrg.uKdJigy_dmrRImYYNJle6ybAxvk"):
