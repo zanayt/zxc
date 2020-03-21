@@ -1,0 +1,3 @@
+node hacker.js
+
+pause
